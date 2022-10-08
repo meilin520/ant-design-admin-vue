@@ -1,0 +1,1 @@
+export default (name) => { return resolve=>require([`@/views/${name}`],resolve)}
